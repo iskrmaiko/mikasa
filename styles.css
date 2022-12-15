@@ -1,0 +1,255 @@
+.container-fluid{
+  max-width: 65%;
+  padding-top: 0;
+}
+.logo{
+  float: left;
+}
+.navtop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  
+  .navtop li {
+    display:inline-block;
+  }
+  
+  .navtop i{
+    color:  rgb(21, 47, 104) ;
+    margin-right: 1rem;
+  }
+  .navtop a {
+    display: block;
+    color: rgb(74, 74, 74);
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family:'游ゴシック';
+    font-weight:600;
+  }
+
+
+
+.nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 226, 234);
+    text-align: center;
+
+  }
+  
+  .nav1 li {
+    display:inline-block;
+  }
+  
+  .nav1 a {
+    display: block;
+    color: rgb(74, 74, 74);
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family:'游ゴシック';
+    font-weight:600;
+  }
+
+  .nav1 li a:hover {
+    background-color: #333;
+    color:  rgb(208, 212, 221);
+  }
+ 
+  .nav2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem 0;
+    background-color: rgb(19, 31, 57);
+    text-align: center;
+    font-family:'游明朝';
+  }
+  
+  .nav2 li {
+    display:inline-block;
+    padding: 0 .5rem;
+  }
+  
+  .nav2 select {
+    display: block;
+    color: #111;
+    padding: .5rem 16px;
+    text-decoration: none;
+    transition: 0.4s;
+   
+  }
+
+  .nav2 input{
+    padding: .265rem 16px;
+  }
+
+
+  .nav2 i{
+    margin-right: 1rem;
+
+  }
+
+  .nav2 button{
+    padding: 0.5rem 3.5rem;
+    margin-left: 1rem;
+    background-color: rgb(213, 67, 67);
+    color: white;
+    border: 0rem;
+    border-radius: 20px;
+
+  }
+
+  h3{
+    color: rgb(74, 74, 74);
+    font-family:'游ゴシック';
+  }
+
+  .intro {
+    float: left;
+    width: 45%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column1 {
+    float: right;
+    width: 45%;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .warning{
+    border:2px solid;
+    border-color:  rgb(74, 74, 74);
+    color: rgb(74, 74, 74);
+    width: 80%;
+    text-align: center;
+    margin: 3rem auto;
+    padding: 3rem 0;
+  }
+ 
+  .yoshino{
+    float: right;
+  }
+
+  .bot{
+    background-color: #6f7583; 
+    padding-top: 14px;
+    text-align: center;
+  }
+  .bot ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+  }
+  
+  .bot li {
+    display:inline-block;
+    padding-top: .5rem;
+  }
+  
+  .bot p {
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family:'游ゴシック';
+    font-weight:600;
+    text-align: left;
+    font-size: smaller;
+    padding-right: 5px;
+  }
+
+  .bot li i {
+    float: left;
+    font-size: 30px;
+  }
+
+  .bot button i{
+    font-size: 20px;
+  }
+  .bot button{
+    border-radius: 30px;
+    border: solid;
+    border-color: white;
+    padding: 5px 60px;
+    background-color: #6f7583;
+    color: white;
+    margin-bottom: 2rem;
+    margin-top:1rem;
+  }
+ 
+
+  
+
+
+
+  
+  .foot{
+    background-color: rgb(19, 31, 57);
+    margin-top: 0; 
+    text-align: center;
+    padding:14px 0 10px 10px;
+  }
+
+  
+  .foot p {
+    display: block;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+    font-family:'游ゴシック';
+    font-weight:600;
+    text-align: left;
+    font-size: smaller;
+    padding-right: 5px;
+  }
+
+  .foot img{
+    float: left;
+    margin-right: 10px;
+  }
+  
+
+.footlinks{
+  border-top: solid 1px;
+  border-color: #6f7583;
+}
+.footlinks ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(19, 31, 57);
+  text-align: center;
+
+}
+
+.footlinks li {
+  display:inline-block;
+  font-size: 10px;
+}
+
+.footlinks a {
+  display: block;
+  color: white;
+  padding: 14px 8px;
+  text-decoration: underline;
+  transition: 0.4s;
+  font-family:'游ゴシック';
+  font-weight:600;
+}
